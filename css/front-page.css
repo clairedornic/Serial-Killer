@@ -1,0 +1,206 @@
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Heebo', sans-serif;*/
+
+
+/*400;
+500;
+700;
+800*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+main {
+    overflow: hidden;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+.bkg-dark {
+    background-color: #000 !important;
+}
+
+* {
+    text-decoration: none;
+}
+
+.intro {
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: 0 !important;
+}
+
+.img-intro {
+    position: absolute;
+    max-height: 95%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intro .link-intro {
+    bottom: 270px !important;
+}
+
+.intro .go-down {
+    left: 55% !important;
+    transform: translate(-50%) rotate(225deg) !important;
+    top: 28% !important;
+}
+
+.intro .link-intro:hover .go-down {
+    left: 43% !important;
+    transform: translate(-50%) rotate(45deg) !important;
+    top: 43% !important;
+    transition: all 0.8s linear !important;
+}
+
+.intro .line-intro {
+    content: '';
+    border-left: solid 1px #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 1;
+    height: 260px;
+}
+
+.intro h1 {
+    font-size: 9rem !important;
+}
+
+.intro h1::after {
+    background-size: 4rem !important;
+    right: -85px !important;
+}
+
+.carousel-menu > .carousel-inner {
+    /*Permet d'avoir le texte à cheval sur l'image*/
+    overflow: visible;
+}
+
+.carousel-menu.in-transition > .carousel-inner {
+    /*Permet de ne pas montrer les bare de scroll pendant une transition de slide*/
+    overflow: hidden;
+}
+
+.carousel-menu .carousel-caption {
+    /* place le texte à cheval sur l'image */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: -4rem;
+}
+
+.carousel-menu .carousel-caption h1 {
+    font-size: 8rem;
+    margin-bottom: -2rem;
+}
+
+.carousel-menu .carousel-control-prev-icon,
+.carousel-menu .carousel-control-next-icon {
+    background-image: url(/assets/svg/white-arrow-nav.svg);
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.carousel-menu .carousel-control-prev-icon {
+    transform: rotate(180deg);
+}
+
+
+/*button.fullscreen {
+    right: 1rem;
+    bottom: 2rem;
+    width: 5rem;
+    height: 4rem;
+    background-color: transparent;
+    background-image: url(/assets/svg/white-full-screen.svg);
+    background-size: 5rem;
+    background-repeat: no-repeat;
+    border: none;
+}*/
+
+a.world {
+    left: 1rem;
+    width: 5rem;
+    height: 5rem;
+    /* background-color: transparent;
+ background-image: url(/assets/svg/white-world.svg);
+ background-size: 4.5rem;
+ background-repeat: no-repeat;*/
+    border: none;
+    bottom: 20px;
+}
+
+.world .img-before {}
+
+.slide-title {
+    right: -0.8rem;
+    top: 1rem;
+}
+
+.slide-title > span {
+    font-size: 8rem;
+}
+
+.nav-horizontal::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.menu {
+    position: relative;
+}
+
+.carousel-caption h1 {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 8rem;
+    text-align: center;
+    color: #fff;
+    transition: opacity .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+.slide-title {
+    top: 0px;
+    right: -18px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 9rem;
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1440px) {
+    .carousel-item img {
+        max-width: 40rem;
+    }
+    .carousel-menu .carousel-caption h1 {
+        font-size: 6rem;
+        margin-bottom: -0.5rem;
+    }
+    .slide-title {
+        font-size: 6rem;
+    }
+    .carousel-menu .carousel-control-prev-icon,
+    .carousel-menu .carousel-control-next-icon {
+        width: 4.5rem;
+    }
+    .intro h1 {
+        font-size: 6rem !important;
+    }
+    .intro .line-intro {
+        height: 175px;
+    }
+    .intro .link-intro {
+        bottom: 184px !important;
+    }
+}

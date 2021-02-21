@@ -1,0 +1,107 @@
+.cara-profiler {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cara-profiler p {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.cara-profiler-left {
+    align-items: flex-end;
+}
+
+.cara-profiler-left p {
+    text-align: right;
+    padding-right: 5rem;
+    padding-left: 1rem;
+}
+
+.cara-profiler-left p::after {
+    content: url(/assets/svg/arrow-profiler.svg);
+    position: absolute;
+    right: -25px;
+    width: 5.5rem;
+    top: 56%;
+    transform: translateY(-50%);
+}
+
+.cara-profiler-right p::after {
+    content: url(/assets/svg/arrow-profiler.svg);
+    position: absolute;
+    left: -25px;
+    width: 5.5rem;
+    top: 50%;
+    transform: translateY(-50%) scaleX(-1);
+}
+
+.cara-profiler-right p:hover::after,
+.cara-profiler-left p:hover::after {
+    content: url(/assets/svg/arrow-full-profiler.svg);
+}
+
+.cara-profiler-right p {
+    padding-left: 6rem;
+}
+
+.cara-profiler-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cara-profiler-img .img-after {
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cara-profiler-img .img-before {
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.img-profiler {
+    position: absolute;
+    max-width: 24rem;
+}
+
+.killer-section-search .reponse-intro p {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1400px) {
+    .intro-section-search .question-intro h3 {
+        max-width: 90%;
+    }
+    .cara-profiler p {
+        font-size: 1.2rem;
+    }
+    .cara-profiler-right p {
+        padding: 1rem 4rem 1rem 5rem;
+    }
+    .cara-profiler-left p {
+        padding: 1rem 5rem 1rem 4rem;
+    }
+    .more-section-search .media {
+        width: 26rem;
+        margin-top: 1rem;
+    }
+    .more-section-search .contenu a {
+        top: 21.4rem;
+    }
+    .more-section-search .contenu .line-media {
+        top: 18rem;
+    }
+    .more-section-search .bio p {
+        max-height: 18rem;
+    }
+}

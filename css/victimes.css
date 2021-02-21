@@ -1,0 +1,321 @@
+.reminder-victime {
+    left: -70px;
+    bottom: 85px;
+}
+
+.reminder-harvey {}
+
+.reminder-bundy {
+    left: -40px;
+    bottom: 45px;
+}
+
+.reminder-lopez {
+    left: -110px;
+    bottom: 123px;
+}
+
+.reminder-tchikatilo {
+    bottom: 105px;
+    left: -85px;
+}
+
+
+/* Dahmer */
+
+.profil-section-dahmer .container-more,
+.mode-section-dahmer .container-more {
+    padding: 0;
+}
+
+.profil-section .title-section-victim {
+    align-items: unset;
+    width: 100%;
+}
+
+.title-section-victim h3 {
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+
+.title-section-victim img {
+    position: absolute;
+    width: 25rem;
+}
+
+.title-section-victim .white-profil-victim {
+    z-index: 2;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.title-section-victim .red-profil-victim {
+    z-index: 2;
+    top: 44%;
+    left: 49%;
+    transform: translate(-50%);
+}
+
+.cara-victime {
+    list-style: none;
+    color: #fff;
+    position: relative;
+    height: calc(100vh - 24rem);
+}
+
+.cara-victime div .victime-li {
+    font-size: 1.8rem;
+}
+
+.cara-victime div .victime-li {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+}
+
+.cara-victime div .victime-li::after {
+    content: url(/assets/svg/arrow-profiler.svg);
+    position: absolute;
+    width: 5.5rem;
+}
+
+.cara-victime .un {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.cara-victime .un .victime-li::after {
+    transform: rotate(25deg);
+    right: -108px;
+    top: 18px;
+}
+
+.cara-victime .deux {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+.cara-victime .deux .victime-li::after {
+    right: -115px;
+    top: 57%;
+    transform: translateY(-44%);
+}
+
+.cara-victime .trois {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+.cara-victime .trois .victime-li::after {
+    transform: rotate(140deg);
+    left: -95px;
+    top: 35px;
+}
+
+.cara-victime .quatre {
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    width: 19rem;
+}
+
+.cara-victime .quatre .victime-li::after {
+    left: -80px;
+    top: 20%;
+    transform: rotate(180deg);
+}
+
+
+/*Timeline*/
+
+.timeline {
+    width: 800px;
+    height: 20px;
+    list-style: none;
+    text-align: justify;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 13rem;
+}
+
+.timeline:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+
+.line-behind {
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%);
+    left: 50%;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+}
+
+.timeline li {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    background: url("/assets/svg/white-square-line.svg");
+    background-size: 3rem;
+    height: 3rem;
+    width: 3rem;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.timeline li:before {
+    display: inline-block;
+    content: attr(data-text);
+    font-size: 26px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):before {
+    top: 70px;
+    width: 15rem;
+}
+
+.timeline li:nth-child(odd):after {
+    top: 70px;
+    width: 15rem;
+}
+
+.timeline li:nth-child(even):before {
+    bottom: 70px;
+    width: 15rem;
+}
+
+
+/* Lopez */
+
+.profil-section-lopez .cara-victime .un,
+.profil-section-tchika .cara-victime .un {
+    top: 20%;
+    left: 22%;
+}
+
+.profil-section-lopez .cara-victime .trois,
+.profil-section-tchika .cara-victime .trois {
+    top: 10%;
+    right: 23%;
+}
+
+
+/*Bundy*/
+
+.profil-section-bundy .cara-victime .un {
+    left: 23%;
+}
+
+.profil-section-bundy .cara-victime .trois {
+    right: 21%;
+}
+
+.profil-section-bundy .cara-victime .quatre li {
+    padding-left: 1rem;
+}
+
+
+/* Harvey */
+
+.profil-section-harvey .cara-victime .un {
+    left: 9%;
+}
+
+.profil-section-harvey .cara-victime .deux {
+    left: 12%;
+}
+
+.profil-section-harvey .cara-victime .trois {
+    top: 30%;
+    right: 13%;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1400px) {
+    .title-section-victim img {
+        width: 15rem;
+    }
+    .title-section-victim .white-profil-victim {
+        top: 45%;
+    }
+    .title-section-victim .red-profil-victim {
+        z-index: 2;
+        top: 47%;
+    }
+    .title-section-victim h3 {
+        padding-top: 5rem;
+        padding-left: 3rem;
+        line-height: 4.5rem;
+        font-size: 80px;
+    }
+    .cara-victime div .victime-li {
+        font-size: 1.6rem;
+    }
+    .cara-victime .un,
+    .profil-section-bundy .cara-victime .un {
+        left: 20%;
+    }
+    .cara-victime .deux {
+        bottom: 10%;
+    }
+    .cara-victime .trois,
+    .profil-section-bundy .cara-victime .trois {
+        top: -5%;
+        right: 16%;
+    }
+    .cara-victime .quatre {
+        right: 7%;
+    }
+    .container-more .title-section-victim h3 {
+        padding-top: 3rem;
+    }
+    .timeline {
+        margin-top: 6rem;
+    }
+    .profil-section-dahmer .cara-victime .trois {
+        right: 27%;
+    }
+    .profil-section-tchika .cara-victime .trois {
+        right: 15%;
+    }
+    .profil-section-harvey .cara-victime .trois {
+        right: 7%;
+    }
+    .profil-section-harvey .cara-victime .un {
+        left: 5%;
+    }
+    .profil-section-harvey .cara-victime .deux {
+        left: 6%;
+    }
+}

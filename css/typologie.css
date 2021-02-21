@@ -1,0 +1,131 @@
+.intro-section-typo .container-icons-infos {
+    padding: 1rem 0;
+}
+
+.killer-section-typo .container-icons-reponse .red-square,
+.killer-section-type .container-icons-reponse .red-square {
+    left: 50px;
+    top: 100px;
+}
+
+.killer-section-typo .container-icons-reponse:hover img:first-of-type,
+.killer-section-type .container-icons-reponse:hover img:first-of-type {
+    left: 45px;
+    top: 110px;
+}
+
+.more-section-typo .contenu .line-media,
+.more-section-type .contenu .line-media,
+.more-section-search .contenu .line-media {
+    top: 22rem;
+}
+
+.more-section-typo .contenu a,
+.more-section-type .contenu a,
+.more-section-search .contenu a {
+    top: 27.4rem;
+}
+
+.infos-section-typo .container-infos {
+    padding-bottom: 4rem;
+}
+
+.infos-section-typo .explication {
+    width: 90%;
+    font-size: 25px;
+    border-right: 1px solid #FF0000;
+    padding-right: 1rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 15rem;
+}
+
+.right {
+    text-align: right;
+    border-left: 0;
+}
+
+.left {
+    text-align: left;
+    border-left: 1px solid #FF0000;
+    border-right: 0 !important;
+    margin-left: 8rem;
+    padding: 1rem !important;
+    width: 70% !important;
+}
+
+.infos-section-typo img {
+    max-width: 7rem;
+}
+
+.infos-section-typo .row h3 {
+    padding: 0;
+    font-size: 3.5rem;
+}
+
+.infos-section-typo .row {
+    padding: 2rem 5rem;
+}
+
+.infos-typo .img-tueuse {
+    position: relative;
+    padding-top: 5rem;
+}
+
+.infos-typo .img-tueuse img:last-of-type {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%
+}
+
+.infos-typo .img-tueuse img:first-of-type {
+    left: 46%;
+    transform: translateX(-50%);
+    top: 55%;
+}
+
+.infos-typo:last-of-type .img-tueuse {
+    padding-top: 3rem;
+}
+
+.infos-typo:hover .img-tueuse img:first-of-type {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transition: all 0.4s linear;
+}
+
+.more-section-typo .bio p {
+    max-height: 31rem;
+    max-width: 50%;
+    margin: 0;
+}
+
+.title-section-typo .reminder {
+    left: -40px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .infos-section-typo .explication {
+        width: 100%;
+        padding-left: 0rem;
+    }
+    .left {
+        margin-left: 0rem;
+        width: 100% !important;
+    }
+    .more-section-typo .bio p {
+        max-width: 100%;
+        max-height: 26rem;
+    }
+    .more-section-typo .media {
+        width: 26rem;
+        margin-top: 4rem;
+    }
+    .more-section-typo .contenu .line-media {
+        top: 21rem;
+    }
+    .more-section-typo .contenu a {
+        top: 24.4rem;
+    }
+}

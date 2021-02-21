@@ -1,0 +1,223 @@
+/* Intro section */
+
+.intro-section-psy .container-icons-infos {
+    padding: 1.5rem 0;
+}
+
+.intro-section-psy .container-icons-infos p {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.intro-section-psy .question-intro h3 {
+    padding-bottom: 4rem;
+}
+
+
+/* Icons question section*/
+
+.container-icons-infos .red-trauma-brain,
+.container-icons-infos .white-trauma-brain {
+    max-width: 6rem;
+}
+
+
+/* Infos section */
+
+.infos-section-psy .container-fluid {
+    padding: 0 9rem 2rem 9rem;
+}
+
+.infos-section-psy .container-infos .row {
+    padding: 4rem 0;
+}
+
+.infos-section-psy .container-infos h3 {
+    padding: 4rem 2rem;
+}
+
+.infos-section-psy p {
+    color: #fff;
+}
+
+.infos-section-psy .container-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-section-psy .container-img img {
+    object-fit: cover;
+    padding: 0 0 0 6rem;
+}
+
+.explication {
+    width: 23rem;
+    font-size: 25px;
+    border-left: 1px solid #FF0000;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.infos-section-psy figcaption {
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    position: relative;
+    font-style: italic;
+}
+
+.infos-section-psy figcaption .red-bundy {
+    position: absolute;
+    color: #FF0000;
+    left: -2px;
+    bottom: -1px;
+    padding: 0 6rem;
+}
+
+.infos-section-psy .infos-serial-killer img {
+    display: block;
+    position: unset;
+}
+
+.infos-section-psy .infos-serial-killer p {
+    padding: 0 3rem 0 1rem;
+}
+
+.bundy-explication {
+    display: flex;
+    align-items: center;
+}
+
+.bundy-explication .explication {
+    width: 25rem;
+}
+
+.illustration-bundy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.illustration-bundy span {
+    text-shadow: -3px 2px 0px #FF0000;
+}
+
+.white-bundy {
+    position: relative;
+    z-index: 2;
+}
+
+.infos-psy-2 {
+    height: 20rem;
+}
+
+.icon-quote {
+    position: relative;
+}
+
+.icon-quote img {
+    display: unset !important;
+    position: absolute !important;
+    max-width: 15rem;
+}
+
+.icon-quote .white-hammer {
+    z-index: 2;
+    top: -145px;
+    left: 0;
+}
+
+.icon-quote .red-hammer {
+    left: -10px;
+    top: -135px;
+}
+
+.container-quote {
+    display: flex;
+    align-items: center;
+}
+
+.container-quote p {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: right;
+    font-family: 'Heebo', sans-serif;
+    border-right: 1px solid #FF0000;
+    padding-right: 1rem;
+}
+
+
+/* Plus d'infos section*/
+
+.more-section-psy .illustration-contenu img,
+.more-section-perso .illustration-contenu img {
+    width: 18rem;
+    padding: 2rem 1rem;
+    background-color: #141414;
+    box-shadow: -20px -20px 0 #FF0000;
+}
+
+.more-section-psy .contenu a,
+.more-section-perso .contenu a {
+    top: 32rem;
+}
+
+.more-section-psy .contenu .line-media,
+.more-section-perso .contenu .line-media {
+    top: 29rem;
+    height: 31px;
+}
+
+.more-section-psy .bio p {
+    max-height: 31rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    /* Plus d'infos section*/
+    .more-section-psy .illustration-contenu img,
+    .more-section-perso .illustration-contenu img {
+        width: 13rem;
+        padding: 2rem 1rem;
+        background-color: #141414;
+        box-shadow: -20px -20px 0 #FF0000;
+    }
+    .more-section-psy .contenu a {
+        top: 23rem;
+    }
+    .more-section-psy .contenu .line-media {
+        top: 21rem;
+        height: 20px;
+    }
+    .icon-quote img {
+        max-width: 12rem;
+    }
+    .icon-quote .red-hammer {
+        top: -45px;
+        left: -10px;
+    }
+    .icon-quote .white-hammer {
+        z-index: 2;
+        top: -55px;
+        left: 0;
+    }
+    .bundy-explication p {
+        max-width: 30rem;
+    }
+    .more-section-psy .contenu {
+        margin-top: 1rem;
+    }
+    .infos-section-psy .container-infos .row {
+        padding: 3rem 0;
+    }
+    .container-quote p {
+        padding-right: 2rem !important;
+    }
+    .infos-section-psy .infos-serial-killer:last-of-type p {
+        font-size: 23px;
+    }
+    .killer-section-psy .container-icons-reponse:last-of-type .red-square {
+        top: 70px;
+    }
+    .killer-section-psy .container-icons-reponse:last-of-type:hover .red-square {
+        top: 75px;
+    }
+}

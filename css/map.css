@@ -1,0 +1,41 @@
+.container-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 80%;
+    height: 700px;
+    z-index: 0;
+}
+
+#mapid {
+    height: 100%;
+    width: 100%;
+}
+
+.main-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carousel-caption h1 {
+    z-index: 100;
+}
+
+@media only screen and (max-width: 1400px) {
+    .map {
+        width: 70%;
+        height: 500px;
+        z-index: 0;
+    }
+    .main-map h1 {
+        font-size: 6rem;
+    }
+    .main-map .carousel-caption {
+        bottom: -19px;
+    }
+}

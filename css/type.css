@@ -1,0 +1,79 @@
+.intro-section-type .container-icons-infos {
+    padding: 1rem 0;
+}
+
+.killer-section-type .bio p {
+    max-width: 70%;
+}
+
+.infos-type {
+    padding-bottom: 6rem;
+}
+
+.title-line {
+    color: white;
+    font-size: 35px;
+}
+
+table {
+    border: 1px solid white;
+}
+
+.title-line th,
+.title-line td {
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.list-line td ul li {
+    font-size: 27px;
+    max-width: 95%;
+    font-weight: 400;
+    list-style-type: disc;
+    padding: 0.2rem;
+}
+
+td {
+    width: 30rem;
+}
+
+.need-padding {
+    padding: 0.5rem 1rem;
+}
+
+.killer-section-search .container-icons-reponse .red-square {
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.killer-section-search .container-icons-reponse:hover img:first-of-type {
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.more-section-search .bio p {
+    max-height: 22rem;
+}
+
+.intro-section-search .question-intro h3 {
+    max-width: 78%;
+}
+
+.title-section-type .reminder {
+    left: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .more-section-type .media {
+        width: 26rem;
+        margin-top: 2rem;
+    }
+    .more-section-type .contenu .line-media {
+        top: 19rem;
+    }
+    .more-section-type .contenu a {
+        top: 22.4rem;
+    }
+}

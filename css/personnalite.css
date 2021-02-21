@@ -1,0 +1,132 @@
+.title-perso::after {
+    top: -25px !important;
+    right: -50px !important;
+}
+
+.more-section-perso .contenu a {
+    top: 33.4rem;
+}
+
+.more-section-perso .contenu .line-media {
+    top: 28rem;
+}
+
+.more-section-perso .more-section .bio p {
+    max-height: 23rem;
+}
+
+.killer-section-perso .container-icons-reponse .red-square {
+    top: 80px;
+}
+
+.killer-section-perso .container-icons-reponse:hover img:first-of-type {
+    top: 85px;
+}
+
+.killer-section-perso .container-icons-reponse:nth-of-type(2) .red-square {
+    top: 60px;
+}
+
+.killer-section-perso .container-icons-reponse:nth-of-type(2):hover img:first-of-type {
+    top: 65px;
+}
+
+.infos-section-perso h3 {
+    padding: 4rem 20rem 2rem 20rem;
+}
+
+.infos-section-perso {
+    height: 100%
+}
+
+.img-tueuse {
+    position: relative;
+}
+
+.img-tueuse img {
+    position: absolute;
+    max-width: 20rem;
+}
+
+.white-profil {
+    z-index: 2;
+    top: 0;
+    left: 300px;
+}
+
+.red-profil {
+    top: 20px;
+    left: 275px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0 25rem 4rem 25rem;
+}
+
+.text-tueuse {
+    padding-left: 12rem !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-section-perso .explication {
+    width: 45rem;
+    color: white;
+    margin: 2rem 0;
+    border-left: 2px solid #FF0000;
+}
+
+@media only screen and (max-width: 1400px) {
+    .more-section-perso .contenu a {
+        top: 22.8rem;
+    }
+    .more-section-perso .contenu .line-media {
+        top: 20rem;
+    }
+    .infos-section-perso {
+        height: 45rem;
+    }
+    .intro-section-perso .question-intro h3,
+    .container-intro-reponse .question-intro h3 {
+        font-size: 5rem;
+        max-width: 100%;
+    }
+    .question-intro {
+        padding-left: 1rem !important;
+    }
+    .killer-section-perso .container-icons-reponse:nth-of-type(2) .red-square {
+        top: 25px;
+    }
+    .killer-section-perso .container-icons-reponse:nth-of-type(2):hover img:first-of-type {
+        top: 30px;
+    }
+    .subtitle {
+        padding: 0 2rem 1rem 2rem;
+        font-size: 25px;
+    }
+    .infos-section-perso .explication {
+        margin: 1rem 0;
+    }
+    .text-tueuse {
+        padding-left: 6rem !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-tueuse img {
+        position: absolute;
+        width: 10rem;
+    }
+    .white-profil {
+        top: 60px;
+        left: 275px;
+    }
+    .red-profil {
+        top: 80px;
+        left: 275px;
+    }
+}
